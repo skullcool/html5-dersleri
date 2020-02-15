@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        .container {
+            background-color: chocolate;
+            height: 200px;
+            margin-top: 10px;
+        }
+        
+        .container-fluid {
+            background-color: chocolate;
+            height: 200px;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ol>
+        <li>The <code>.container</code> class provides a responsive <strong>fixed width container</strong></li>
+        <li>The <code>.container-fluid</code> class provides a <strong>full width container</strong>, spanning the entire width of the viewport</li>
+    </ol>
+
+
+    <div class="">
+
+        <p>container</p>
+    </div>
+
+    <div class="">
+
+        <p>container-fluid</p>
+    </div>
+</body>
+
+</html>
