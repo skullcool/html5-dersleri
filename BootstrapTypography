@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Font weight and italics</h1>
+        <p class="">.font-weight-bold</p>
+        <p class="">.font-weight-bolder</p>
+        <p class="">.font-weight-normal</p>
+        <p class="">.font-weight-light</p>
+        <p class="">.font-weight-lighter</p>
+        <p class="">.font-italic</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Typography</h2>
+        <p>Paragrafı "öne çıkarmak" için .lead sınıfını kullanın:</p>
+        <p class="">.lead Bu paragraf öne çıkıyor.</p>
+        <p>Bu normal bir paragraf.</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Typography</h2>
+        <p>Metni küçültmek için .small sınıfını kullanın:</p>
+        <p class="">.small Bu paragraf daha küçük.</p>
+        <p>Bu normal bir paragraf.</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Typography</h2>
+        <p class="">.text-left</p>
+        <p class="">.text-right</p>
+        <p class="">.text-center</p>
+        <p class="">.text-justify Yaslanmış metin. Yaslanmış metin. Yaslanmış metin. Yaslanmış metin. Yaslanmış metin. Yaslanmış metin.</p>
+        <p class="">.text-nowrap Kaydırma metni yok. Kaydırma metni yok. Kaydırma metni yok. Kaydırma metni yok.</p>
+        <p><strong>Tip:</strong>Yaslama ve nowrap davranışlarını görmek için tarayıcı penceresini yeniden boyutlandırmayı deneyin. </p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Metin sonu / Kelime sonu</h2>
+        <p>.Text-break sınıfı, uzun metnin düzeni bozmasını önler.</p>
+        <p>.text-break:</p>
+        <p class="">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+        <p>olmadan .text-break:</p>
+        <p>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Metin Süsleme</h2>
+        <p>Bir bağlantıdan alt çizgiyi kaldırmak için .text-decoration-none sınıfını kullanın.</p>
+        <a href="#" class="">.text-decoration-none</a>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Typography</h2>
+        <p class="">.text-lowercase Lowercased text.</p>
+        <p class="">.text-uppercase Uppercased text.</p>
+        <p class="">.text-capitalize Capitalized text.</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Typography</h2>
+        <p>.List-unstyled sınıfı, liste öğelerindeki varsayılan liste stilini ve sol kenar boşluğunu kaldırır (yalnızca hemen alt çocuklar):</p>
+        <ul class="">
+            <li>Coffee</li>
+            <li>Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h2>Typography</h2>
+        <p> .list-inline sınıfı .list-inline-item ile birlikte kullanıldığında tüm liste öğelerini tek bir satıra yerleştirir: </p>
+        <ul class="">
+            <li class="">Coffee</li>
+            <li class="">Tea</li>
+            <li class="">Milk</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Code</h2>
+
+        <p> Birden çok kod satırı için ön öğeyi kullanın: </p>
+        <pre> Bir ön öğedeki metin
+        sabit genişlikte görüntülenir
+        yazı tipi ve korur
+        hem boşluk hem de
+        satır sonları. </pre>
+
+        <p> .pre-scrollable kaydırılabilir sınıfı eklerseniz, ön öğe maksimum 340 piksel yüksekliğe ulaşır ve bir y ekseni kaydırma çubuğu sağlar: </p>
+        <pre class="">Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.</pre>
+    </div>
+</body>
+
+</html>
