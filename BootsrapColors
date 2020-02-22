@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2> Bağlamsal Renkler </h2>
+
+        <p> "Renkler yoluyla anlam" sağlamak için bağlamsal sınıfları kullanın: </p>
+        <p class="">.text-muted</p>
+        <p class="">.text-primary</p>
+        <p class="">.text-success</p>
+        <p class="">.text-info</p>
+        <p class="">.text-warning</p>
+        <p class="">.text-danger</p>
+        <p class="">.text-secondary</p>
+        <p class="">.text-dark</p>
+        <p class="">.text-body</p>
+        <p class="">.text-light</p>
+        <p class="">.text-white</p>
+        <p> "Renkler yoluyla anlam" sağlamak için bağlamsal sınıfları kullanın: Linkler ve diğer herşey için </p>
+        <hr>
+        <a href="#" class="">.text-muted</a>
+        <a href="#" class="">.text-primary</a>
+        <a href="#" class="">.text-success</a>
+        <a href="#" class="">.text-info</a>
+        <a href="#" class="">.text-warning</a>
+        <a href="#" class="">.text-danger</a>
+        <a href="#" class="">.text-secondary</a>
+        <a href="#" class="">.text-dark</a>
+        <a href="#" class="">.text-body</a>
+        <a href="#" class="">.text-light</a>
+        <a href="#" class="">.text-white</a>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h2> Opaklık Metin Renkleri </h2>
+        <p> .text-black-50 veya .text-white-50 sınıflarıyla siyah veya beyaz metin için% 50 opaklık ekleyin: </p>
+        <p class="">.text-black-50</p>
+        <p class="">.text-white-50 .bg-dark</p>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h2> Bağlamsal Arka Planlar </h2>
+
+        <p> "Renkler yoluyla anlam" sağlamak için bağlamsal arka plan sınıflarını kullanın. </p>
+
+        <p> Farklı bir metin rengi istiyorsanız .text- * sınıfı da ekleyebileceğinizi unutmayın: </p>
+        <p class="">.bg-primary .text-white</p>
+        <p class="">.bg-success .text-white</p>
+        <p class="">.bg-info .text-white</p>
+        <p class="">.bg-warning .text-white</p>
+        <p class="">.bg-danger .text-white</p>
+        <p class="">.bg-secondary .text-white</p>
+        <p class="">.bg-dark .text-white</p>
+        <p class="">.bg-light .text-dark</p>
+    </div>
+</body>
+
+</html>
