@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2> Temel Tablo </h2>
+
+        <p> .table sınıfı bir tabloya temel stil (hafif dolgu ve yatay ayırıcılar) ekler: </p>
+
+        <h2> Çizgili Satırlar </h2>
+
+        <p>.table .table-çizgili sınıfı bir tabloya zebra-çizgileri ekler: </p>
+        <h2> Sınırlı Tablo </h2>
+
+        <p>.table .table-bordered sınıfı, tablonun ve hücrelerin tüm kenarlarına kenarlıklar ekler: </p>
+
+        <h2> Fareyle Üzerine Gelme Satırları </h2>
+
+        <p>.table .table-hover sınıfı, tablo satırlarında fareyle üzerine gelme durumunu (farenin üzerinde gri arka plan) etkinleştirir: </p>
+
+        <h2> Siyah / Koyu Tablo </h2>
+
+        <p>.table .table-dark sınıfı tabloya siyah bir arka plan ekler: </p>
+
+        <h2> Kenarlıksız Tablo </h2>
+
+        <p>.table .table-borderless sınıfı kenarlıkları tablodan kaldırır: </p>
+
+        <h2> Küçük Tablo </h2>
+
+        <p> .table .table-bordered .table-sm sınıfı, hücre dolgusunu ikiye bölerek tabloyu küçültür: </p>
+
+
+        <table class="">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="container">
+        <h2> Bağlamsal Sınıflar </h2>
+
+        <p> Bağlamsal sınıflar tabloyu, tablo satırlarını veya tablo hücrelerini renklendirmek için kullanılabilir. Kullanılabilecek sınıflar şunlardır: .table-birincil, .table-başarı, .table-info, .table-alert, .table-danger, .table-active, .table-second,
+            .table-light ve .table -Dark: </ p>
+            <table class="">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Default</td>
+                        <td>Defaultson</td>
+                        <td>def@somemail.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Primary</td>
+                        <td>.table-primary</td>
+                        <td>joe@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Success</td>
+                        <td>.table-success</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Danger</td>
+                        <td>.table-danger</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Info</td>
+                        <td>.table-info</td>
+                        <td>july@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Warning</td>
+                        <td>.table-warning</td>
+                        <td>bo@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Active</td>
+                        <td>table-active</td>
+                        <td>act@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Secondary</td>
+                        <td>.table-secondary</td>
+                        <td>sec@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Light</td>
+                        <td>.table-light</td>
+                        <td>angie@example.com</td>
+                    </tr>
+                    <tr class="">
+                        <td>Dark</td>
+                        <td>.table-dark .text-dark</td>
+                        <td>bo@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+
+    <div class="container">
+        <h2> Duyarlı Tablo </h2>
+
+        <p> .table-Responsive sınıfı, (gerekirse) 992 pikselden daha küçük ekranlarda yatay olarak kayacak duyarlı bir tablo oluşturur. 992 pikselden daha büyük bir şeye bakarken, hiçbir fark yoktur: </p>
+
+        <div class="">
+            <table class="">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Country</th>
+                        <th>Sex</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Anna</td>
+                        <td>Pitt</td>
+                        <td>35</td>
+                        <td>New York</td>
+                        <td>USA</td>
+                        <td>Female</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
