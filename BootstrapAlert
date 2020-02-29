@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2> Uyarılar </h2>
+
+        <p> Uyarılar .alert sınıfıyla ve ardından bağlamsal renk sınıflarıyla oluşturulur: </p>
+        <div class="">
+            <strong>.alert .alert-success</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="">
+            <strong>.alert .alert-info</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="">
+            <strong>.alert .alert-warning</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="">
+            <strong>.alert .alert-danger</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="">
+            <strong>.alert .alert-primary</strong> Indicates an important action.
+        </div>
+        <div class="">
+            <strong>.alert .alert-secondary</strong> Indicates a slightly less important action.
+        </div>
+        <div class="">
+            <strong>.alert .alert-dark</strong> Dark grey alert.
+        </div>
+        <div class="">
+            <strong>.alert .alert-light</strong> Light grey alert.
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container">
+        
+            <h2> Uyarılar </h2>
+        
+            <p> Uyarı kutusunu kapatmak için class = "close" ve data-dismiss = "alert" olan düğme kullanılır. </p>
+        
+            <p> Uyarı ile sonlandırılabilir sınıf, kapat düğmesine fazladan dolgu ekler. </p>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-success .alert-dismissible</strong> This alert box could indicate a successful or positive action.
+            </div>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-info .alert-dismissible</strong> This alert box could indicate a neutral informative change or action.
+            </div>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-warning .alert-dismissible</strong> This alert box could indicate a warning that might need attention.
+            </div>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-danger .alert-dismissible</strong> This alert box could indicate a dangerous or potentially negative action.
+            </div>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-primary .alert-dismissible</strong> Indicates an important action.
+            </div>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-secondary .alert-dismissible</strong> Indicates a slightly less important action.
+            </div>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-dark .alert-dismissible</strong> Dark grey alert.
+            </div>
+            <div class="">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>.alert .alert-light .alert-dismissible</strong> Light grey alert.
+            </div>
+        </div>
+
+</body>
+
+</html>
