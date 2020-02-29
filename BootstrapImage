@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Yuvarlatılmış köşeler</h2>
+        <p>.rounded sınıfı bir görüntüye yuvarlatılmış köşeler ekler:</p>
+        <img src="https://placeholder.com/250" class="" alt="image">
+    </div>
+    <hr>
+    <div class="container">
+        <h2> Çember </h2>
+        <p> .rounded-circle sınıfı görüntüyü bir daireye göre şekillendirir: </p>
+        <img src="https://placeholder.com/250" class="" alt="image">
+    </div>
+    <hr>
+    <div class="container"></div>
+    <div class="container"></div>
+    <h2> Küçük Resim </h2>
+    <p> .img-thumbnail sınıfı görüntünün küçük resmini oluşturur: </p>
+    <img src="https://placeholder.com/250" class="" alt="image">
+    </div>
+    <hr>
+    <div class="container"></div>
+    <h2> Görüntüleri hizalama </h2>
+    <p>.float-left .float-right Görüntüyü sola veya sağa kaydırmak için kayan nokta sınıflarını kullanın: </p>
+    <img src="https://placeholder.com/250" class="" alt="image">
+    <img src="https://placeholder.com/250" class="" alt="image">
+    </div>
+    <hr>
+    <div class="container"></div>
+    <h2> Ortalanmış Resim </h2>
+
+    <p> Görüntüye .mx-auto (margin: auto) ve .d-block (display: block) yardımcı sınıflarını ekleyerek görüntüyü ortalayın: </p>
+    <img src="https://placeholder.com/250" class="" alt="image">
+
+    </div>
+
+    <hr>
+    <div class="container"></div>
+    <h2> Responsiv Resim </h2>
+
+    <p> .img-fluid sınıfı, görüntü ölçeğini üst öğeye güzelleştirir (efekti görmek için tarayıcı penceresini yeniden boyutlandırın): </p>
+    <img src="https://placeholder.com/250" class="" alt="image">
+
+    </div>
+
+</body>
+
+</html>
